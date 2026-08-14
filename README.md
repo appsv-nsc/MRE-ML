@@ -237,6 +237,6 @@ Because the test cohort was right-skewed in reference values, patient-level CCC 
 
 - [Tabulated quantitative agreement results](./SupplementaryMaterials/SuppSensitivityAnalysis-III.pdf) corresponding to Figs. 5–7 of the manuscript.
 
-- [Additional Implementation Details](./SupplementaryMaterials/AdditionalImplementationDetails.pd) such as data augmentation and NMSE calculation details.
+- [Additional Implementation Details](./SupplementaryMaterials/AdditionalImplementationDetails.pdf) such as data augmentation and NMSE calculation details.
 ---
 

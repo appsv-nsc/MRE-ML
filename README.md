@@ -17,6 +17,7 @@ The repository includes code for data preprocessing and augmentation, model trai
 ## Repository Structure
 
 ```text
+├── SupplementaryMaterials
 ├── configs
 │   ├── downstream
 │   ├── full_pipeline
@@ -54,12 +55,10 @@ The repository includes code for data preprocessing and augmentation, model trai
 │   ├── pipeline_tools.py
 │   ├── recorder.py
 │   └── tools.py
-├── Supporting Materials
 ├── mre_ml_environment.yml
 ├── requirements.txt
 └── README.md
 ```
-
 ---
 
 ## Requirements
@@ -78,7 +77,7 @@ The code was tested with the following environment:
 Clone the repository:
 
 ```bash
-git clone https://github.com/username/repository.git
+git clone https://github.com/appsv-nsc/MRE-ML.git
 cd repository
 ```
 
@@ -221,23 +220,23 @@ The original implementation was modified and extended for the MRE experiments pr
 ---
 ## Supplementary Materials
 
-Additional materials accompanying the manuscript are provided in the [`SupportingMaterials`](./SupportingMaterials/) directory:
+Additional materials accompanying the manuscript are provided in the [`SupplementaryMaterials`](./SupplementaryMaterials/) directory:
 
-- [Demographic and laboratory characteristics of the study cohort](./SupportingMaterials/DatasetDemographicAndCharacteristics.pdf).
+- [Demographic and laboratory characteristics of the study cohort](./SupplementaryMaterials/DatasetDemographicAndCharacteristics.pdf).
 
-- [Input visualizations](./SupportingMaterials/InputVisualizations.pdf), including phase and magnitude images and the corresponding segmentation masks.
+- [Input visualizations](./SupplementaryMaterials/InputVisualizations.pdf), including phase and magnitude images and the corresponding segmentation masks.
 
-- [Supplementary Target-Weighted loss analysis](./SupportingMaterials/SuppCustomLoss.pdf), including error-distribution analysis across target-value bins and qualitative comparisons.
+- [Supplementary Target-Weighted loss analysis](./SupplementaryMaterials/SuppCustomLoss.pdf), including error-distribution analysis across target-value bins and qualitative comparisons.
 
-- [Extended qualitative results for the self-supervised learning experiments](./SupportingMaterials/ExtendedQualitativeResultsForSSL.pdf).
+- [Extended qualitative results for the self-supervised learning experiments](./SupplementaryMaterials/ExtendedQualitativeResultsForSSL.pdf).
 
-- [Supplementary Sensitivity analysis](./SupportingMaterials/SuppSensitivityAnalysis-I.pdf) to address potential heteroscedasticity of the differences between predicted and reference maps, supplementary log-ratio Bland–Altman (multiplicative LoA) and percentage Bland–Altman (relative LoA) formulations were computed in addition to the standard absolute-kPa formulation. Distribution-free bootstrap (5000 resamples) 95% confidence intervals for CCC are reported alongside the Fisher z-transformation intervals as a complementary inferential check. All sensitivity and robustness analyses are presented [here]
+- [Supplementary Sensitivity analysis](./SupplementaryMaterials/SuppSensitivityAnalysis-I.pdf) to address potential heteroscedasticity of the differences between predicted and reference maps, supplementary log-ratio Bland–Altman (multiplicative LoA) and percentage Bland–Altman (relative LoA) formulations were computed in addition to the standard absolute-kPa formulation. Distribution-free bootstrap (5000 resamples) 95% confidence intervals for CCC are reported alongside the Fisher z-transformation intervals as a complementary inferential check. All sensitivity and robustness analyses are presented [here]
 
-- [High-reference-value agreement analysis](./SupportingMaterials/SuppSensitivityAnalysis-II-(HighValued).pdf).
+- [High-reference-value agreement analysis](./SupplementaryMaterials/SuppSensitivityAnalysis-II-(HighValued).pdf).
 Because the test cohort was right-skewed in reference values, patient-level CCC over the full set is more influenced by the lower-value range. To probe agreement in the clinically critical higher-value regime, we additionally analyzed the five patients with the highest mean reference values for each biomarker (n = 5 of 13 test patients, selected to focus on the clinically elevated end of the reference distribution).
 
-- [Tabulated quantitative agreement results](./SupportingMaterials/SuppSensitivityAnalysis-III.pdf) corresponding to Figs. 5–7 of the manuscript.
+- [Tabulated quantitative agreement results](./SupplementaryMaterials/SuppSensitivityAnalysis-III.pdf) corresponding to Figs. 5–7 of the manuscript.
 
-- [Additional Implementation Details](./SupportingMaterials/AdditionalImplementationDetails.pdf) such as data augmentation and NMSE calculation details.
+- [Additional Implementation Details](./SupplementaryMaterials/AdditionalImplementationDetails.pd) such as data augmentation and NMSE calculation details.
 ---
 

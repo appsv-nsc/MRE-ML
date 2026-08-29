@@ -78,7 +78,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/appsv-nsc/MRE-ML.git
-cd repository
+cd MRE-ML
 ```
 
 Create and activate the Conda environment:

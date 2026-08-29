@@ -21,7 +21,7 @@ class pipeline_2d_configs:
     # manualseed: any random integer number that shouldn't be changed between one run and another to ensure consistency
     manualseed = 123
 
-    use_skip_in_pretext = True  # use skip connections in pretext tasks where applicable
+    use_skip_in_pretext = False  # use skip connections in pretext tasks where applicable
     use_skip_in_downstream = True  # use skip connections in downstream tasks where applicable
 
     # network configs

@@ -125,8 +125,8 @@ def run_model_inference(model_variant, data_path, device, batch_size, model_path
 def main():
     # === Argument Parser ===
     parser = argparse.ArgumentParser(description="Run inference using trained model")
-    parser.add_argument("--model_variant", type=tuple,
-                        default=("unet_2d",),
+    parser.add_argument("--model_variant", type=str,
+                        default="unet_2d",
                         help="Model name")
     parser.add_argument("--gpu", type=int, default=1, help="GPU id to use")
     parser.add_argument("--batch_size", type=int, default=1, help="Batch size for inference")
@@ -134,8 +134,8 @@ def main():
                         help="models_path")
     parser.add_argument("--models_path", type=str, default='/data/projects/mre-ml/checkpoints/full_pipeline/20260328/downstream_task_mre/mapping',
                         help="models_path")
-    parser.add_argument("--note", type=str, default='_scratch',
-                        help="note")
+    parser.add_argument("--note", type=str, default='_autoencoder',
+                        help="should be _autoencoder if AEpretrained, _rot if rot pretrained or _scrach if rand init.")
     args = parser.parse_args()
 
     os.environ["CUDA_VISIBLE_DEVICES"] = str(args.gpu)

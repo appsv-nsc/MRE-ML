@@ -140,7 +140,7 @@ class full_pipeline_manager:
         for netwrk in self.pipeline_config.network_backbones:
             current_network = netwrk
 
-            if pretext_task_name == ['autoencoder'] and self.pipeline_config.downstream_task == 'mapping':
+            if pretext_task_name == 'autoencoder' and self.pipeline_config.downstream_task == 'mapping':
                 current_network = pretext_task_name + '_' + netwrk
                 if not self.pipeline_config.use_skip_in_pretext:
                     current_network = current_network + '_WoSkip'

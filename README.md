@@ -222,7 +222,7 @@ The original implementation was modified and extended for the MRE experiments pr
 
 Additional materials accompanying the manuscript are provided in the [`SupplementaryMaterials`](./SupplementaryMaterials/) directory:
 
-- [Demographic and laboratory characteristics of the study cohort](./SupplementaryMaterials/DatasetDemographicAndCharacteristics.pdf).
+- [Supplementary Demographic and laboratory characteristics of the study cohort](./SupplementaryMaterials/SuppDatasetCharacteristics.pdf).
 
 - [Input visualizations](./SupplementaryMaterials/InputVisualizations.pdf), including phase and magnitude images and the corresponding segmentation masks.
 

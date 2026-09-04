@@ -2,13 +2,13 @@
 
 Official PyTorch implementation accompanying the manuscript:
 
-> **Deep Learning Estimation of Liver Storage and Loss Modulus Maps from Single-Direction Displacement-encoded MRE**
+> **Physics-Motivated Learning of Liver Storage and Loss Modulus Maps from Single-Direction MRE**
 
 ---
 
 ## Overview
 
-This repository contains the implementation and supporting materials for the manuscript **"Deep Learning Estimation of Liver Storage and Loss Modulus Maps from Single-Direction Displacement-Encoded MRE."**
+This repository contains the implementation and supporting materials for the manuscript **"Physics-Motivated Learning of Liver Storage and Loss Modulus Maps from Single-Direction MRE"**
 
 The repository includes code for data preprocessing and augmentation, model training and inference, and quantitative evaluation. Configuration files are provided for the pretext and downstream tasks, as well as for running the complete training pipeline. Additional supporting materials related to the experiments and analyses reported in the manuscript are also provided.
 

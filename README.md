@@ -1,15 +1,11 @@
 # MRE ML
 
-Official PyTorch implementation accompanying the manuscript:
-
-> **Physics-Motivated Learning of Liver Storage and Loss Modulus Maps from Single-Direction MRE**
-
+Official PyTorch implementation accompanying the manuscript.
 ---
 
 ## Overview
 
-This repository contains the implementation and supporting materials for the manuscript **"Physics-Motivated Learning of Liver Storage and Loss Modulus Maps from Single-Direction MRE"**
-
+This repository contains the implementation and supporting materials for the manuscript.
 The repository includes code for data preprocessing and augmentation, model training and inference, and quantitative evaluation. Configuration files are provided for the pretext and downstream tasks, as well as for running the complete training pipeline. Additional supporting materials related to the experiments and analyses reported in the manuscript are also provided.
 
 ---
